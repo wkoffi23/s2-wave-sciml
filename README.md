@@ -12,7 +12,9 @@ Ce dépôt regroupe le code et le rapport d'étude portant sur la résolution nu
 4. **Validation physique :** Analyse des erreurs en déroulement temporel (*rollout*), conservation de l'énergie, spectre harmonique et ouverture vers les régimes non-linéaires.
 
 
-## Strcture du repo
+## 📁 Structure du projet
+
+```text
 s2-wave-sciml/
 ├── pyproject.toml          # Dépendances et métadonnées du package
 ├── README.md               # Présentation du projet, équations et résultats clés
@@ -26,3 +28,4 @@ s2-wave-sciml/
 ├── scripts/                # Scripts CLI : generate_data.py, train.py, evaluate.py
 ├── notebooks/              # Exploration rapide et brouillons de figures
 └── report/                 # Rapport final (Quarto .qmd, Jupyter Book ou LaTeX)
+
